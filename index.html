@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garuda Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Garuda<span>.</span></h1>
+        <p>A dictionary of Indian languages</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="eyebrow">LANGUAGE · CULTURE · KNOWLEDGE</p>
+            <h2>Find the meaning<br>behind every word.</h2>
+            <p class="description">
+                Explore words, meanings and expressions
+                through Devanagari and Romanised search.
+            </p>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search a word... / शब्द खोजें"
+                    autocomplete="off"
+                >
+                <button id="searchButton">Search</button>
+            </div>
+
+            <p class="search-hint">
+                <div id="recentSearches" class="recent-searches"></div>
+            </p>
+        </section>
+
+        <section class="results-section">
+            <div class="section-heading">
+                <h3>Dictionary</h3>
+                <span id="resultCount">Explore words</span>
+            </div>
+
+            <div id="results" class="results">
+                <div class="empty-state">
+                    <h3>शब्दों की दुनिया</h3>
+                    <p>Search for a word to discover its meaning.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>GARUDA DICTIONARY · MADE WITH PURPOSE</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
